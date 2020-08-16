@@ -1,0 +1,7 @@
+<view class='newsli'>
+  <view class="lis" wx:for="{{news}}" wx:key="id">
+    <view class="h1">{{item.title}}</view>
+    <view class="h2">{{item.content}}</view>
+    <view class="h3">{{item.time}}</view>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+<view class="contain">
+      <view style="height:20rpx;"></view>
+      <!--顶部图-->
+      <image src="{{banner}}" class="slide-image" />
+      <!--在线咨询-->
+      <view class="card" bindtap="gotobook">
+            <view class="card1">
+                  <image class="wechatimg" src="/images/shu.png" />
+            </view>
+            <view class="borderbox">
+                  <view class="border"></view>
+            </view>
+            <view class="centercontain">
+                  <view class="name">发布二手书籍</view>
+                  <view class="des">发布您不用的二手书籍</view>
+            </view>
+            <view class="rightico">
+                        <image class="rightimg" src="/images/right.png" />
+            </view>
+           
+      </view>
+      <!--微信联系-->
+      <view class="card" bindtap="gotogoods">
+            <view class="card1">
+                  <image class="wechatimg" src="/images/wu.png" />
+            </view>
+            <view class="borderbox">
+                  <view class="border"></view>
+            </view>
+            <view class="centercontain">
+                  <view class="name">发布二手物品</view>
+                  <view class="des">发布您闲置的二手物品</view>
+            </view>
+            <view class="rightico">
+                  <image class="rightimg" src="/images/right.png" />
+            </view>
+      </view>
+    
+</view>
